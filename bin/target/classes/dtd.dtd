@@ -1,0 +1,6 @@
+<!ELEMENT Root (document*)>
+<!ELEMENT document (wrd*)>
+<!ELEMENT wrd EMPTY>
+<!ATTLIST wrd cnt CDATA #REQUIRED>
+<!ATTLIST wrd lemme CDATA #REQUIRED>
+<!ATTLIST document name CDATA #REQUIRED>
